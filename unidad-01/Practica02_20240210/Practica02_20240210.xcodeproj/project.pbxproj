@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CB1E7D52B7821C400179512 /* Persona.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1E7D42B7821C400179512 /* Persona.swift */; };
+		0CB1E7DC2B78294300179512 /* Estudiante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1E7DB2B78294300179512 /* Estudiante.swift */; };
 		0CD4D2582B780A6700DBF7E7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD4D2572B780A6700DBF7E7 /* main.swift */; };
 		0CD4D2602B780AFA00DBF7E7 /* ejercicio01CalcularImpuesto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD4D25F2B780AFA00DBF7E7 /* ejercicio01CalcularImpuesto.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0CB1E7D42B7821C400179512 /* Persona.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persona.swift; sourceTree = "<group>"; };
+		0CB1E7DB2B78294300179512 /* Estudiante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estudiante.swift; sourceTree = "<group>"; };
 		0CD4D2542B780A6700DBF7E7 /* Practica02_20240210 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Practica02_20240210; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD4D2572B780A6700DBF7E7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0CD4D25F2B780AFA00DBF7E7 /* ejercicio01CalcularImpuesto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio01CalcularImpuesto.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 			children = (
 				0CD4D2572B780A6700DBF7E7 /* main.swift */,
 				0CD4D25F2B780AFA00DBF7E7 /* ejercicio01CalcularImpuesto.swift */,
+				0CB1E7D42B7821C400179512 /* Persona.swift */,
+				0CB1E7DB2B78294300179512 /* Estudiante.swift */,
 			);
 			path = Practica02_20240210;
 			sourceTree = "<group>";
@@ -122,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CB1E7D52B7821C400179512 /* Persona.swift in Sources */,
+				0CB1E7DC2B78294300179512 /* Estudiante.swift in Sources */,
 				0CD4D2582B780A6700DBF7E7 /* main.swift in Sources */,
 				0CD4D2602B780AFA00DBF7E7 /* ejercicio01CalcularImpuesto.swift in Sources */,
 			);

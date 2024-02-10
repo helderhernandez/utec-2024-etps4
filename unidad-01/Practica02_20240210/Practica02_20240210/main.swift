@@ -7,5 +7,21 @@
 
 import Foundation
 
-sueldo()
+let nombre:String
+let apellido:String
+let anioNacimiento:Int
+
+print("Ingrese el nombre")
+nombre = readLine()!
+
+print("Ingrese el apellido")
+apellido = readLine()!
+
+print("Ingrese el anio de su nacimiento")
+anioNacimiento = Int(readLine()!)!
+
+var sussi = Persona(nombre, apellido, anioNacimiento)
+
+print(sussi.toString())
+//sueldo()
 
