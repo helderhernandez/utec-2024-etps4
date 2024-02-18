@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1141C2D2B81CD1F00E53983 /* estructuras-selectivas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1141C2C2B81CD1F00E53983 /* estructuras-selectivas.swift */; };
+		E1141C2F2B81D17600E53983 /* estructuras-repetitivas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1141C2E2B81D17600E53983 /* estructuras-repetitivas.swift */; };
 		E170528B2B81B69000D1EF4F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E170528A2B81B69000D1EF4F /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E1141C2C2B81CD1F00E53983 /* estructuras-selectivas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "estructuras-selectivas.swift"; sourceTree = "<group>"; };
+		E1141C2E2B81D17600E53983 /* estructuras-repetitivas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "estructuras-repetitivas.swift"; sourceTree = "<group>"; };
 		E17052872B81B69000D1EF4F /* ejercicios-presentacion-unidad1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ejercicios-presentacion-unidad1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E170528A2B81B69000D1EF4F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				E170528A2B81B69000D1EF4F /* main.swift */,
+				E1141C2C2B81CD1F00E53983 /* estructuras-selectivas.swift */,
+				E1141C2E2B81D17600E53983 /* estructuras-repetitivas.swift */,
 			);
 			path = "ejercicios-presentacion-unidad1";
 			sourceTree = "<group>";
@@ -119,6 +125,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1141C2D2B81CD1F00E53983 /* estructuras-selectivas.swift in Sources */,
+				E1141C2F2B81D17600E53983 /* estructuras-repetitivas.swift in Sources */,
 				E170528B2B81B69000D1EF4F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
