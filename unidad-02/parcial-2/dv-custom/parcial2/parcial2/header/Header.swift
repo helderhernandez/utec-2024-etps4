@@ -2,7 +2,7 @@
 //  Header.swift
 //  parcial2
 //
-//  Created by MacOsX on 3/16/24.
+//  Created by MacOsX on 16/3/24.
 //
 
 import SwiftUI
@@ -15,33 +15,25 @@ struct Header: View {
                 .scaledToFit()
                 .frame(width: 50,
                        height: 50,
-                       alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                       alignment: .center)
                 .clipShape(RoundedRectangle(cornerRadius: 50))
-            Text("Hola papu!")
-            Text("Hola papu!")
-            Text("Hola papu!")
             
             Image(systemName:"pencil.circle")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 50,
                    height: 50,
-                   alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                   alignment: .center)
                 .cornerRadius(0.5)
-                .background(colorNaranja)
             
             Image(systemName:"message.circle")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 50,
                    height: 50,
-                   alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                
+                   alignment: .center)
                 .cornerRadius(100)
-                .background(colorNaranja)
-                
         }
-        
     }
 }
 
