@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "author": "Terrie Armstrong",
+    "title": "CALCULA",
+    "email": "terriearmstrong@calcula.com"
+  },
+  {
+    "id": 2,
+    "author": "Bauer Harrell",
+    "title": "ROUGHIES",
+    "email": "bauerharrell@roughies.com"
+  },
+  {
+    "id": 3,
+    "author": "Foreman Oliver",
+    "title": "WRAPTURE",
+    "email": "foremanoliver@wrapture.com"
+  },
+  {
+    "id": 4,
+    "author": "Clara Howell",
+    "title": "ZIZZLE",
+    "email": "clarahowell@zizzle.com"
+  },
+  {
+    "id": 5,
+    "author": "Amelia Rhodes",
+    "title": "GAZAK",
+    "email": "ameliarhodes@gazak.com"
+  },
+  {
+    "id": 6,
+    "author": "Jeanette Barber",
+    "title": "COMVEX",
+    "email": "jeanettebarber@comvex.com"
+  },
+  {
+    "id": 7,
+    "author": "Matthews Jacobson",
+    "title": "KENEGY",
+    "email": "matthewsjacobson@kenegy.com"
+  },
+  {
+    "id": 8,
+    "author": "Denise Russo",
+    "title": "SKINSERVE",
+    "email": "deniserusso@skinserve.com"
+  },
+  {
+    "id": 9,
+    "author": "Garner Poole",
+    "title": "CINASTER",
+    "email": "garnerpoole@cinaster.com"
+  }
+]
