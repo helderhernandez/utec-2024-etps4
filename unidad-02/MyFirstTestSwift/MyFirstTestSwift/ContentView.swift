@@ -14,9 +14,21 @@ struct ContentView: View {
             Text("*********** VStack ***********")
             
             VStack(alignment: .leading){
-                Text("Primer Text")
-                Text("Segundo Text")
-                Text("Tercer Text")
+                Text("Text with color")
+                    .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                
+                Text("Text with bold")
+                    .bold()
+                
+                Text("Text with large title")
+                    .font(.largeTitle)
+                
+                Image("utec")
+                    .resizable()
+                        .scaledToFit()
+                        .frame(width: 200, height: 200, alignment: .center)
+                        .cornerRadius(3)
+                        
             }
             
             Text("*********** VStack ***********")
