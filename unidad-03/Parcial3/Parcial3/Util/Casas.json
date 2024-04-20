@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "precio": 85000,
+      "categoria": "FINCAS",
+      "descripcion": "Finca agrícola con plantaciones de café y cacao",
+      "ubicacion": "San Salvador, La Libertad",
+      "urlImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Q1jX3BoPsRI-8GlIRyD2fnUUH3w3IWTQgionCpMjjQ&s"
+    },
+  {
+    "id": 2,
+    "precio": 12000,
+    "categoria": "APARTAMENTOS",
+    "descripcion": "Apartamento acogedor de 3 habitaciones con vistas a la ciudad",
+    "ubicacion": "San Salvador, Zona Rosa",
+    "urlImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Q1jX3BoPsRI-8GlIRyD2fnUUH3w3IWTQgionCpMjjQ&s"
+  },
+  {
+    "id": 3,
+    "precio": 9500,
+    "categoria": "TERRENOS",
+    "descripcion": "Terreno en zona campestre con árboles frutales",
+    "ubicacion": "San Salvador, Santa Tecla",
+    "urlImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Q1jX3BoPsRI-8GlIRyD2fnUUH3w3IWTQgionCpMjjQ&s"
+  },
+  {
+    "id": 4,
+    "precio": 85000,
+    "categoria": "EDIFICIOS",
+    "descripcion": "Edificio de oficinas con diseño contemporáneo",
+    "ubicacion": "San Salvador, Colonia Escalón",
+    "urlImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Q1jX3BoPsRI-8GlIRyD2fnUUH3w3IWTQgionCpMjjQ&s"
+  },
+  {
+    "id": 5,
+    "precio": 72000,
+    "categoria": "FINCAS",
+    "descripcion": "Finca ganadera con amplios pastizales",
+    "ubicacion": "San Salvador, La Libertad",
+    "urlImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Q1jX3BoPsRI-8GlIRyD2fnUUH3w3IWTQgionCpMjjQ&s"
+  },
+  {
+    "id": 6,
+    "precio": 180000,
+    "categoria": "CASAS",
+    "descripcion": "Piso de lujo con piscina privada y vista al mar",
+    "ubicacion": "San Salvador, Antiguo Cuscatlán",
+    "urlImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Q1jX3BoPsRI-8GlIRyD2fnUUH3w3IWTQgionCpMjjQ&s"
+  },
+  {
+    "id": 7,
+    "precio": 13000,
+    "categoria": "APARTAMENTOS",
+    "descripcion": "Moderno apartamento de 1 habitación en zona exclusiva",
+    "ubicacion": "San Salvador, San Benito",
+    "urlImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Q1jX3BoPsRI-8GlIRyD2fnUUH3w3IWTQgionCpMjjQ&s"
+  },
+  {
+    "id": 8,
+    "precio": 69000,
+    "categoria": "CASAS",
+    "descripcion": "Casa adosada con patio trasero y jardín",
+    "ubicacion": "San Salvador, Soyapango",
+    "urlImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Q1jX3BoPsRI-8GlIRyD2fnUUH3w3IWTQgionCpMjjQ&s"
+  },
+  {
+    "id": 9,
+    "precio": 35000,
+    "categoria": "TERRENOS",
+    "descripcion": "Terreno con vista panorámica hacia el valle",
+    "ubicacion": "San Salvador, Ciudad Merliot",
+    "urlImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Q1jX3BoPsRI-8GlIRyD2fnUUH3w3IWTQgionCpMjjQ&s"
+  },
+  {
+    "id": 10,
+    "precio": 105000,
+    "categoria": "EDIFICIOS",
+    "descripcion": "Edificio residencial con área social y gimnasio",
+    "ubicacion": "San Salvador, Santa Tecla",
+    "urlImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Q1jX3BoPsRI-8GlIRyD2fnUUH3w3IWTQgionCpMjjQ&s"
+  }
+]
+
