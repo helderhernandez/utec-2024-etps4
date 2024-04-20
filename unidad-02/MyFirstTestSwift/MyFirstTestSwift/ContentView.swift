@@ -8,27 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    // variables
+    @State var cantidad = 0
+    
     var body: some View {
         VStack(alignment: .leading){
             // VStack ****************
             Text("*********** VStack ***********")
             
             VStack(alignment: .leading){
-                Text("Text with color")
-                    .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                Text("\(cantidad)")
+                    .foregroundColor(.red)
                 
-                Text("Text with bold")
-                    .bold()
-                
-                Text("Text with large title")
-                    .font(.largeTitle)
-                
-                Image("utec")
-                    .resizable()
-                        .scaledToFit()
-                        .frame(width: 200, height: 200, alignment: .center)
-                        .cornerRadius(3)
-                        
+                Button(action:{self.cantidad += 1}){
+                    Text("Tocar para actualizar @state")
+                }
             }
             
             Text("*********** VStack ***********")
@@ -37,17 +31,22 @@ struct ContentView: View {
                     .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
                 
-                Circle()
-                    .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                Image("utec")
+                    .resizable()
+                        .scaledToFit()
+                        .frame(width: 100, height: 100, alignment: .center)
+                        .cornerRadius(3)
             }
             
             // HStack ****************
             Text("*********** HStack ***********S")
             
             HStack(){
-                Text("Primer Text")
-                Text("Segundo Text")
-                Text("Tercer Text")
+                Text("Text with bold")
+                    .bold()
+                
+                Text("Text with large title")
+                    .font(.largeTitle)
             }
             
             Text("*********** HStack ***********S")
@@ -65,6 +64,7 @@ struct ContentView: View {
 }
 
 struct ContentView_Previews: PreviewProvider {
+    
     static var previews: some View {
         ContentView()
     }
