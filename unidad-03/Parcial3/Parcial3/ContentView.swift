@@ -8,8 +8,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var inmuebles = [Inmueble]()
+    
     var body: some View {
-        Text("Africa")
+        List(inmuebles){
+                    inmuebles in VStack(alignment: .leading){
+                        
+                        Text("\(inmuebles.descripcion)")
+                            .font(.title)
+                            .foregroundColor(.blue)
+                            .padding(.bottom)
+                        
+                        HStack{
+                            Text("\(inmuebles.categoria)")
+                                .font(.title)
+                                .foregroundColor(.blue)
+                                .padding(.bottom)
+                            
+                            Text("\(inmuebles.ubicacion)")
+                                .font(.title)
+                                .foregroundColor(.blue)
+                                .padding(.bottom)
+                        }
+                        
+                        Spacer()
+                    }
+                }
+                
+                .onAppear(){
+                    Api().loadData{(inmuebles) in
+                        self.inmuebles = inmuebles
+                    }
+                }.navigationTitle("Inmuebles Disponiles")
             
     }
 }
