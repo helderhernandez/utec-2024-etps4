@@ -11,35 +11,37 @@ struct ContentView: View {
     @State var inmuebles = [Inmueble]()
     
     var body: some View {
-        List(inmuebles){
-                    inmuebles in VStack(alignment: .leading){
-                        
-                        Text("\(inmuebles.descripcion)")
-                            .font(.title)
-                            .foregroundColor(.blue)
-                            .padding(.bottom)
-                        
-                        HStack{
-                            Text("\(inmuebles.categoria)")
-                                .font(.title)
-                                .foregroundColor(.blue)
-                                .padding(.bottom)
-                            
-                            Text("\(inmuebles.ubicacion)")
-                                .font(.title)
-                                .foregroundColor(.blue)
-                                .padding(.bottom)
-                        }
-                        
-                        Spacer()
-                    }
+        
+        VStack(){
+            Encabezado()
+            
+            List(inmuebles){
+                inmuebles in VStack(alignment: .leading){
+                    
+                    
+                    Image("\(inmuebles.urlImg)")
+                        .resizable()
+                        .scaledToFit()
+                    
+                    Text("\(inmuebles.descripcion)")
+                        .bold()
+                        .foregroundColor(.blue)
+                        .padding(.bottom)
+                    
+                    Text("$ \(inmuebles.precio)")
+      
+                    Spacer()
                 }
-                
-                .onAppear(){
-                    Api().loadData{(inmuebles) in
-                        self.inmuebles = inmuebles
-                    }
-                }.navigationTitle("Inmuebles Disponiles")
+            }
+            
+            Botones()
+        }
+            
+        .onAppear(){
+            Api().loadData{(inmuebles) in
+                self.inmuebles = inmuebles
+            }
+        }.navigationTitle("Inmuebles Disponiles")
             
     }
 }

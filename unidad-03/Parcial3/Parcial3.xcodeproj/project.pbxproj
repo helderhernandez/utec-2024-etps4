@@ -17,6 +17,8 @@
 		0CCE13062BD4584700F13937 /* CategoriaPrecios.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CCE13052BD4584700F13937 /* CategoriaPrecios.json */; };
 		0CCE130B2BD45BA000F13937 /* Casas.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CCE130A2BD45BA000F13937 /* Casas.json */; };
 		0CCE13102BD45E3600F13937 /* Modelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCE130F2BD45E3600F13937 /* Modelo.swift */; };
+		0CCF76EB2BD473F400044C14 /* Encabezado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCF76EA2BD473F400044C14 /* Encabezado.swift */; };
+		0CCF76F02BD4745400044C14 /* Botones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCF76EF2BD4745400044C14 /* Botones.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		0CCE13052BD4584700F13937 /* CategoriaPrecios.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CategoriaPrecios.json; sourceTree = "<group>"; };
 		0CCE130A2BD45BA000F13937 /* Casas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Casas.json; sourceTree = "<group>"; };
 		0CCE130F2BD45E3600F13937 /* Modelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo.swift; sourceTree = "<group>"; };
+		0CCF76EA2BD473F400044C14 /* Encabezado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encabezado.swift; sourceTree = "<group>"; };
+		0CCF76EF2BD4745400044C14 /* Botones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Botones.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				0CCE12C12BD451A200F13937 /* Assets.xcassets */,
 				0CCE12C62BD451A200F13937 /* Info.plist */,
 				0CCE12C32BD451A200F13937 /* Preview Content */,
+				0CCF76EA2BD473F400044C14 /* Encabezado.swift */,
+				0CCF76EF2BD4745400044C14 /* Botones.swift */,
 			);
 			path = Parcial3;
 			sourceTree = "<group>";
@@ -285,6 +291,8 @@
 				0CCE13102BD45E3600F13937 /* Modelo.swift in Sources */,
 				0CCE12C02BD451A100F13937 /* ContentView.swift in Sources */,
 				0CCE12BE2BD451A100F13937 /* Parcial3App.swift in Sources */,
+				0CCF76EB2BD473F400044C14 /* Encabezado.swift in Sources */,
+				0CCF76F02BD4745400044C14 /* Botones.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

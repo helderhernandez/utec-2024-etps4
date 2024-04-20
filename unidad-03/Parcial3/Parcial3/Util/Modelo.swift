@@ -9,7 +9,7 @@ import Foundation
 
 struct Inmueble: Codable, Identifiable{
     let id = UUID()
-    var precio: Decimal
+    var precio: String
     var categoria: String
     var descripcion: String
     var ubicacion: String
