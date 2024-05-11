@@ -15,23 +15,23 @@ final class DataSource {
     func getMostrar(completionBlock: @escaping (Result<[Modelo], Error>) -> Void){
         database.collection(collection)
             .addSnapshotListener{query, error in
-                if let error != nil{
+                if error != nil{
                     print("No se puede conectar con la base")
-                    //completionBlock(error)
+                    //completionBlock(.failure(error))
                     
                     return
                     
                 }
                 
                 guard let document = query?.documents.compactMap({$0}) else{
-                    //completionBlock(success([]))
+                    completionBlock(.success([]))
                     return
                 }
                 
-                let documentos = document.map{try? $0.data(as Modelo.self)}
+                _ = document.map{try? $0.data(as: Modelo.self)}
                     .compactMap{$0}
                 
-                //completionBlock(success(datos))
+                //completionBlock(.success(document))
                 
             }
     }

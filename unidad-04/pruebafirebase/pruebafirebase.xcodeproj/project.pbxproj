@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C4A83D72BF019FF001A0AFE /* InsertDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A83D62BF019FF001A0AFE /* InsertDatos.swift */; };
+		0C4A83DA2BF01A15001A0AFE /* UpdateDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A83D92BF01A15001A0AFE /* UpdateDatos.swift */; };
+		0C4A83DD2BF01A29001A0AFE /* DeleteDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A83DC2BF01A29001A0AFE /* DeleteDatos.swift */; };
 		0C569DDE2BEFFE1700579AAB /* pruebafirebaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C569DDD2BEFFE1700579AAB /* pruebafirebaseApp.swift */; };
 		0C569DE02BEFFE1700579AAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C569DDF2BEFFE1700579AAB /* ContentView.swift */; };
 		0C569DE22BEFFE1A00579AAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C569DE12BEFFE1A00579AAB /* Assets.xcassets */; };
@@ -26,6 +29,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C4A83D62BF019FF001A0AFE /* InsertDatos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertDatos.swift; sourceTree = "<group>"; };
+		0C4A83D92BF01A15001A0AFE /* UpdateDatos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDatos.swift; sourceTree = "<group>"; };
+		0C4A83DC2BF01A29001A0AFE /* DeleteDatos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDatos.swift; sourceTree = "<group>"; };
 		0C569DDA2BEFFE1700579AAB /* pruebafirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pruebafirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C569DDD2BEFFE1700579AAB /* pruebafirebaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pruebafirebaseApp.swift; sourceTree = "<group>"; };
 		0C569DDF2BEFFE1700579AAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +63,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C4A83D52BF019E4001A0AFE /* screen */ = {
+			isa = PBXGroup;
+			children = (
+				0C4A83D62BF019FF001A0AFE /* InsertDatos.swift */,
+				0C4A83D92BF01A15001A0AFE /* UpdateDatos.swift */,
+				0C4A83DC2BF01A29001A0AFE /* DeleteDatos.swift */,
+			);
+			path = screen;
+			sourceTree = "<group>";
+		};
 		0C569DD12BEFFE1700579AAB = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +92,7 @@
 		0C569DDC2BEFFE1700579AAB /* pruebafirebase */ = {
 			isa = PBXGroup;
 			children = (
+				0C4A83D52BF019E4001A0AFE /* screen */,
 				0C569DFD2BF002B600579AAB /* entidad */,
 				0C569DED2BEFFE8800579AAB /* GoogleService-Info.plist */,
 				0C569DDD2BEFFE1700579AAB /* pruebafirebaseApp.swift */,
@@ -189,8 +206,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C569DFF2BF002C900579AAB /* Modelo.swift in Sources */,
+				0C4A83D72BF019FF001A0AFE /* InsertDatos.swift in Sources */,
+				0C4A83DD2BF01A29001A0AFE /* DeleteDatos.swift in Sources */,
 				0C569E062BF0056F00579AAB /* ConnModelo.swift in Sources */,
 				0C569DE02BEFFE1700579AAB /* ContentView.swift in Sources */,
+				0C4A83DA2BF01A15001A0AFE /* UpdateDatos.swift in Sources */,
 				0C569E092BF0093A00579AAB /* Repo.swift in Sources */,
 				0C569E032BF0048E00579AAB /* DataSource.swift in Sources */,
 				0C569DDE2BEFFE1700579AAB /* pruebafirebaseApp.swift in Sources */,
