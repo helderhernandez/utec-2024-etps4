@@ -39,7 +39,7 @@ struct ContentView: View {
                     TextField("Añade tu correo electrónico", text: $textFieldEmail)
                     TextField("Añade tu contraseña", text: $textFieldPassword)
                     
-                    Button("Login") {
+                    Button("Registrar usuario") {
                         authenticationViewModel.createNewUser(
                             email: textFieldEmail,
                             password: textFieldPassword
