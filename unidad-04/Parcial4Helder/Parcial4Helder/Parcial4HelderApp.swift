@@ -20,10 +20,11 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 @main
 struct Parcial4HelderApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @StateObject var authenticationViewModel = AuthenticationViewModel()
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(textFieldEmail: "", textFieldPassword:"", authenticationViewModel: AuthenticationViewModel())
         }
     }
 }

@@ -9,7 +9,9 @@ import SwiftUI
 
 struct LoginView: View {
     @State var textFieldEmail: String = ""
-        @State var textFieldPassword: String = ""
+    @State var textFieldPassword: String = ""
+    
+    @ObservedObject var authenticationViewModel: AuthenticationViewModel
         
         var body: some View {
             VStack {
@@ -24,26 +26,19 @@ struct LoginView: View {
                 .multilineTextAlignment(.center)
                 .font(.largeTitle)
                 
-                Group {                       
+                Group {
                     TextField("Añade tu correo electrónico", text: $textFieldEmail)
                     TextField("Añade tu contraseña", text: $textFieldPassword)
-                    /*
+                    
                     Button("Login") {
-                        authenticationViewModel.login(email: textFieldEmail,
-                                                      password: textFieldPassword)
+                        authenticationViewModel.createNewUser(
+                            email: textFieldEmail,
+                            password: textFieldPassword
+                        )
  
                     }
-                    .padding(.top, 18)
-                    .buttonStyle(.bordered)
-                    .tint(.blue)
-                    if let messageError = authenticationViewModel.messageError {
-                        Text(messageError)
-                            .bold()
-                            .font(.body)
-                            .foregroundColor(.red)
-                            .padding(.top, 20)
-                    }
- */
+                    
+ 
                 }
                 
                 .padding(.horizontal, 64)
@@ -52,8 +47,12 @@ struct LoginView: View {
         }
 }
 
+
+/*
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
         LoginView()
     }
 }
+ */
+ 
