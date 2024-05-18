@@ -23,7 +23,6 @@
 		0CD7BB3D2BF93DCA00222DB9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0CD7BB3C2BF93DCA00222DB9 /* FirebaseAuth */; };
 		0CD7BB3F2BF93DCA00222DB9 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0CD7BB3E2BF93DCA00222DB9 /* FirebaseAnalyticsSwift */; };
 		0CD7BB412BF93DCA00222DB9 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 0CD7BB402BF93DCA00222DB9 /* FirebaseAnalyticsWithoutAdIdSupport */; };
-		0CD7BB4E2BF9455A00222DB9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD7BB4D2BF9455A00222DB9 /* LoginView.swift */; };
 		0CD7BB542BF94F5600222DB9 /* AuthenticationFirebaseDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD7BB532BF94F5600222DB9 /* AuthenticationFirebaseDatasource.swift */; };
 		0CD7BB592BF9506D00222DB9 /* AuthenticationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD7BB582BF9506D00222DB9 /* AuthenticationRepository.swift */; };
 		0CD7BB5E2BF9510D00222DB9 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD7BB5D2BF9510D00222DB9 /* AuthenticationViewModel.swift */; };
@@ -60,7 +59,6 @@
 		0CD7BB172BF938BA00222DB9 /* Parcial4HelderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parcial4HelderUITests.swift; sourceTree = "<group>"; };
 		0CD7BB192BF938BA00222DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CD7BB282BF93AFB00222DB9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		0CD7BB4D2BF9455A00222DB9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		0CD7BB532BF94F5600222DB9 /* AuthenticationFirebaseDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationFirebaseDatasource.swift; sourceTree = "<group>"; };
 		0CD7BB582BF9506D00222DB9 /* AuthenticationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRepository.swift; sourceTree = "<group>"; };
 		0CD7BB5D2BF9510D00222DB9 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
@@ -124,8 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				0CD7BB522BF94F4600222DB9 /* FirebaseAuth */,
-				0CD7BB4C2BF9453E00222DB9 /* Register */,
-				0CD7BB4B2BF9451F00222DB9 /* Login */,
 				0CD7BB282BF93AFB00222DB9 /* GoogleService-Info.plist */,
 				0CD7BAFA2BF938B700222DB9 /* Parcial4HelderApp.swift */,
 				0CD7BAFC2BF938B700222DB9 /* ContentView.swift */,
@@ -160,21 +156,6 @@
 				0CD7BB192BF938BA00222DB9 /* Info.plist */,
 			);
 			path = Parcial4HelderUITests;
-			sourceTree = "<group>";
-		};
-		0CD7BB4B2BF9451F00222DB9 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				0CD7BB4D2BF9455A00222DB9 /* LoginView.swift */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		0CD7BB4C2BF9453E00222DB9 /* Register */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Register;
 			sourceTree = "<group>";
 		};
 		0CD7BB522BF94F4600222DB9 /* FirebaseAuth */ = {
@@ -332,7 +313,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CD7BB5E2BF9510D00222DB9 /* AuthenticationViewModel.swift in Sources */,
-				0CD7BB4E2BF9455A00222DB9 /* LoginView.swift in Sources */,
 				0CD7BB542BF94F5600222DB9 /* AuthenticationFirebaseDatasource.swift in Sources */,
 				0CD7BAFD2BF938B700222DB9 /* ContentView.swift in Sources */,
 				0CD7BB592BF9506D00222DB9 /* AuthenticationRepository.swift in Sources */,

@@ -27,7 +27,7 @@ struct ContentView: View {
  
                 Group {
                     Text("Parcial 4")
-                    Text("Login")
+                    Text("Registrar usuario")
                         .bold()
                         .underline()
                 }
