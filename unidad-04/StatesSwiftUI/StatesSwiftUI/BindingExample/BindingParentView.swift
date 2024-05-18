@@ -18,15 +18,26 @@ struct BindingParentView: View {
                 Button("Sumar 1"){
                     contador = contador + 1
                 }
+                
+                Divider()
+                
                 NavigationLink(
                     destination: BindingView(contador: $contador),
                     tag: 1,
                     selection: $activarLink
                 ){
+                    /**
+                     el boton cambiara el estado de la variable
+                     "activarLink" y esta activara el navigation hacia el componente
+                     */
                     Button("Abrir ventana de Binding"){
                         activarLink = 1
                     }
                 }
+                
+                Divider()
+                
+                BindingBtnView(contador: $contador)
             }
         }
     }

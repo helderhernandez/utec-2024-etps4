@@ -16,6 +16,7 @@
 		0CD231BA2BF90C280000309B /* ComponentParamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD231B92BF90C280000309B /* ComponentParamView.swift */; };
 		0CD231C22BF9107B0000309B /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD231C12BF9107B0000309B /* BindingView.swift */; };
 		0CD231C62BF910CE0000309B /* BindingParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD231C52BF910CE0000309B /* BindingParentView.swift */; };
+		0CD231CA2BF915C70000309B /* BindingBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD231C92BF915C70000309B /* BindingBtnView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		0CD231B92BF90C280000309B /* ComponentParamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentParamView.swift; sourceTree = "<group>"; };
 		0CD231C12BF9107B0000309B /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 		0CD231C52BF910CE0000309B /* BindingParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingParentView.swift; sourceTree = "<group>"; };
+		0CD231C92BF915C70000309B /* BindingBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBtnView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				0CD231C52BF910CE0000309B /* BindingParentView.swift */,
 				0CD231C12BF9107B0000309B /* BindingView.swift */,
+				0CD231C92BF915C70000309B /* BindingBtnView.swift */,
 			);
 			path = BindingExample;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CD231A12BF9064B0000309B /* ContentView.swift in Sources */,
+				0CD231CA2BF915C70000309B /* BindingBtnView.swift in Sources */,
 				0CD2319F2BF9064B0000309B /* StatesSwiftUIApp.swift in Sources */,
 				0CD231C22BF9107B0000309B /* BindingView.swift in Sources */,
 				0CD231C62BF910CE0000309B /* BindingParentView.swift in Sources */,
