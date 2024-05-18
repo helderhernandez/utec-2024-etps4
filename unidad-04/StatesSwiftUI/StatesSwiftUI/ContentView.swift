@@ -48,6 +48,16 @@ struct ContentView: View {
                         descriptionMenu: "@StateObject, ObservableObject and @Published example"
                     )
                 }
+                
+                Divider()
+                
+                NavigationLink(destination: ObservedObjectParentView()){
+                    ItemMenuView(
+                        iconMenu: "star.fill",
+                        labelMenu: "Observed Object",
+                        descriptionMenu: "@ObservedObject, equivalente a Binding pero para objetos"
+                    )
+                }
             }
             .navigationTitle("Hello :D")
         }
