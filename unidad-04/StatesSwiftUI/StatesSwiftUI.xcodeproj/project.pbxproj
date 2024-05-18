@@ -17,6 +17,7 @@
 		0CD231C22BF9107B0000309B /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD231C12BF9107B0000309B /* BindingView.swift */; };
 		0CD231C62BF910CE0000309B /* BindingParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD231C52BF910CE0000309B /* BindingParentView.swift */; };
 		0CD231CA2BF915C70000309B /* BindingBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD231C92BF915C70000309B /* BindingBtnView.swift */; };
+		0CD231CE2BF91E560000309B /* StateObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD231CD2BF91E560000309B /* StateObjectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		0CD231C12BF9107B0000309B /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 		0CD231C52BF910CE0000309B /* BindingParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingParentView.swift; sourceTree = "<group>"; };
 		0CD231C92BF915C70000309B /* BindingBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBtnView.swift; sourceTree = "<group>"; };
+		0CD231CD2BF91E560000309B /* StateObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				0CD231B82BF90BF10000309B /* ComponentParamExample */,
 				0CD231B22BF907E10000309B /* StateExample */,
 				0CD231BE2BF90FA00000309B /* BindingExample */,
+				0CD231CC2BF91D9A0000309B /* StateObjectExample */,
 				0CD2319E2BF9064B0000309B /* StatesSwiftUIApp.swift */,
 				0CD231A02BF9064B0000309B /* ContentView.swift */,
 				0CD231AE2BF9075E0000309B /* ItemMenuView.swift */,
@@ -109,6 +112,14 @@
 				0CD231C92BF915C70000309B /* BindingBtnView.swift */,
 			);
 			path = BindingExample;
+			sourceTree = "<group>";
+		};
+		0CD231CC2BF91D9A0000309B /* StateObjectExample */ = {
+			isa = PBXGroup;
+			children = (
+				0CD231CD2BF91E560000309B /* StateObjectView.swift */,
+			);
+			path = StateObjectExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +194,7 @@
 				0CD231A12BF9064B0000309B /* ContentView.swift in Sources */,
 				0CD231CA2BF915C70000309B /* BindingBtnView.swift in Sources */,
 				0CD2319F2BF9064B0000309B /* StatesSwiftUIApp.swift in Sources */,
+				0CD231CE2BF91E560000309B /* StateObjectView.swift in Sources */,
 				0CD231C22BF9107B0000309B /* BindingView.swift in Sources */,
 				0CD231C62BF910CE0000309B /* BindingParentView.swift in Sources */,
 				0CD231B52BF908030000309B /* StateView.swift in Sources */,

@@ -38,6 +38,16 @@ struct ContentView: View {
                         descriptionMenu: "@Binding example"
                     )
                 }
+                
+                Divider()
+                
+                NavigationLink(destination: StateObjectView()){
+                    ItemMenuView(
+                        iconMenu: "star.fill",
+                        labelMenu: "State Object",
+                        descriptionMenu: "@StateObject, ObservableObject and @Published example"
+                    )
+                }
             }
             .navigationTitle("Hello :D")
         }
