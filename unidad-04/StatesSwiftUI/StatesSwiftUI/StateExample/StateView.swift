@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct StateView: View {
+    /**
+     al colocar private, ya no es necesario declarar la variable en el constructor de la preview
+     */
+    @State private var contador: Int = 0
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Valor actual: \(contador)")
+            Button("Sumar 1"){
+                contador = contador + 1
+            }
+        }
     }
 }
 
