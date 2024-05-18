@@ -10,9 +10,26 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView{
-            NavigationLink(destination: StateView()){
-                ItemMenuView(iconMenu: "person.fill", labelMenu: "State", descriptionMenu: "@State example")
+            VStack{
+                NavigationLink(destination: ComponentParam(contador: 777)){
+                    ItemMenuView(
+                        iconMenu: "star.fill",
+                        labelMenu: "Component with parameter",
+                        descriptionMenu: "Send param from parent to child component"
+                    )
+                }
+                
+                Divider()
+                
+                NavigationLink(destination: StateView()){
+                    ItemMenuView(
+                        iconMenu: "star.fill",
+                        labelMenu: "State",
+                        descriptionMenu: "@State example"
+                    )
+                }
             }
+            .navigationTitle("Hello :D")
         }
     }
 }
