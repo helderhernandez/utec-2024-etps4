@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ComponentParam: View {
+struct ComponentParamView: View {
     
     @State var contador: Int
     
@@ -21,8 +21,8 @@ struct ComponentParam: View {
     }
 }
 
-struct ComponentParam_Previews: PreviewProvider {
+struct ComponentParamView_Previews: PreviewProvider {
     static var previews: some View {
-        ComponentParam(contador: 33)
+        ComponentParamView(contador: 33)
     }
 }

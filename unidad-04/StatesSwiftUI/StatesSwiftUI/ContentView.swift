@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             VStack{
-                NavigationLink(destination: ComponentParam(contador: 777)){
+                NavigationLink(destination: ComponentParamView(contador: 777)){
                     ItemMenuView(
                         iconMenu: "star.fill",
                         labelMenu: "Component with parameter",
@@ -26,6 +26,16 @@ struct ContentView: View {
                         iconMenu: "star.fill",
                         labelMenu: "State",
                         descriptionMenu: "@State example"
+                    )
+                }
+                
+                Divider()
+                
+                NavigationLink(destination: BindingParentView()){
+                    ItemMenuView(
+                        iconMenu: "star.fill",
+                        labelMenu: "Binding",
+                        descriptionMenu: "@Binding example"
                     )
                 }
             }

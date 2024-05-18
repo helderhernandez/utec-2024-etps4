@@ -13,7 +13,9 @@
 		0CD231A62BF9064C0000309B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD231A52BF9064C0000309B /* Preview Assets.xcassets */; };
 		0CD231AF2BF9075E0000309B /* ItemMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD231AE2BF9075E0000309B /* ItemMenuView.swift */; };
 		0CD231B52BF908030000309B /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD231B42BF908030000309B /* StateView.swift */; };
-		0CD231BA2BF90C280000309B /* ComponentParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD231B92BF90C280000309B /* ComponentParam.swift */; };
+		0CD231BA2BF90C280000309B /* ComponentParamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD231B92BF90C280000309B /* ComponentParamView.swift */; };
+		0CD231C22BF9107B0000309B /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD231C12BF9107B0000309B /* BindingView.swift */; };
+		0CD231C62BF910CE0000309B /* BindingParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD231C52BF910CE0000309B /* BindingParentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +27,9 @@
 		0CD231A72BF9064C0000309B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CD231AE2BF9075E0000309B /* ItemMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemMenuView.swift; sourceTree = "<group>"; };
 		0CD231B42BF908030000309B /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
-		0CD231B92BF90C280000309B /* ComponentParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentParam.swift; sourceTree = "<group>"; };
+		0CD231B92BF90C280000309B /* ComponentParamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentParamView.swift; sourceTree = "<group>"; };
+		0CD231C12BF9107B0000309B /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
+		0CD231C52BF910CE0000309B /* BindingParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingParentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,9 @@
 		0CD2319D2BF9064B0000309B /* StatesSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				0CD231B82BF90BF10000309B /* ComponentParam */,
+				0CD231B82BF90BF10000309B /* ComponentParamExample */,
 				0CD231B22BF907E10000309B /* StateExample */,
+				0CD231BE2BF90FA00000309B /* BindingExample */,
 				0CD2319E2BF9064B0000309B /* StatesSwiftUIApp.swift */,
 				0CD231A02BF9064B0000309B /* ContentView.swift */,
 				0CD231AE2BF9075E0000309B /* ItemMenuView.swift */,
@@ -86,12 +91,21 @@
 			path = StateExample;
 			sourceTree = "<group>";
 		};
-		0CD231B82BF90BF10000309B /* ComponentParam */ = {
+		0CD231B82BF90BF10000309B /* ComponentParamExample */ = {
 			isa = PBXGroup;
 			children = (
-				0CD231B92BF90C280000309B /* ComponentParam.swift */,
+				0CD231B92BF90C280000309B /* ComponentParamView.swift */,
 			);
-			path = ComponentParam;
+			path = ComponentParamExample;
+			sourceTree = "<group>";
+		};
+		0CD231BE2BF90FA00000309B /* BindingExample */ = {
+			isa = PBXGroup;
+			children = (
+				0CD231C52BF910CE0000309B /* BindingParentView.swift */,
+				0CD231C12BF9107B0000309B /* BindingView.swift */,
+			);
+			path = BindingExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,9 +179,11 @@
 			files = (
 				0CD231A12BF9064B0000309B /* ContentView.swift in Sources */,
 				0CD2319F2BF9064B0000309B /* StatesSwiftUIApp.swift in Sources */,
+				0CD231C22BF9107B0000309B /* BindingView.swift in Sources */,
+				0CD231C62BF910CE0000309B /* BindingParentView.swift in Sources */,
 				0CD231B52BF908030000309B /* StateView.swift in Sources */,
 				0CD231AF2BF9075E0000309B /* ItemMenuView.swift in Sources */,
-				0CD231BA2BF90C280000309B /* ComponentParam.swift in Sources */,
+				0CD231BA2BF90C280000309B /* ComponentParamView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
