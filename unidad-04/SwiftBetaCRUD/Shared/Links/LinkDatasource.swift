@@ -47,4 +47,14 @@ final class LinkDatasource {
                 completionBlock(.success(links))
             }
     }
+    
+    func createNew(link: LinkModel, completionBlock: @escaping (Result<LinkModel, Error>) -> Void) {
+        do {
+            _ = try database.collection(collection).addDocument(from: link)
+            completionBlock(.success(link))
+        } catch {
+            completionBlock(.failure(error))
+        }
+    }
+    
 }
