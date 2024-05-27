@@ -57,4 +57,23 @@ final class LinkDatasource {
         }
     }
     
+    func update(link: LinkModel) {
+        // obtenemos el document ID (que es generado por firebase)
+        guard let documentId = link.id else {
+            return
+        }
+        do {
+            // aca actualizamos la informacion en firebase
+            _ = try database.collection(collection).document(documentId).setData(from: link)
+        } catch {
+            print("Error updating link in our database")
+        }
+    }
+    
+    func delete(link: LinkModel) {
+        guard let documentId = link.id else {
+            return
+        }
+        database.collection(collection).document(documentId).delete()
+    }
 }

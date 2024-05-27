@@ -42,6 +42,7 @@ final class LinkViewModel: ObservableObject {
             case .success(let link):
                 
                 // asignamos el nuevo link model al array que tenemos en memoria, aun no utilizamos firebase
+                // ya no es necesario el append, porque al guardar en firebase se refresca automaticamente
                 //self?.links.append(link)
             
                 print("✅ New link \(link.title) added")
@@ -56,5 +57,27 @@ final class LinkViewModel: ObservableObject {
                 self?.messageError = error.localizedDescription
             }
         }
+    }
+    
+    func updateIsFavorited(link: LinkModel) {
+        let updatedLink = LinkModel(id: link.id,
+                                   url: link.url,
+                                   title: link.title,
+                                   isFavorited: link.isFavorited ? false : true,
+                                   isCompleted: link.isCompleted)
+        linkRepository.update(link: updatedLink)
+    }
+    
+    func updateIsCompleted(link: LinkModel) {
+        let updatedLink = LinkModel(id: link.id,
+                                   url: link.url,
+                                   title: link.title,
+                                   isFavorited: link.isFavorited,
+                                   isCompleted: link.isCompleted ? false : true)
+        linkRepository.update(link: updatedLink)
+    }
+    
+    func delete(link: LinkModel) {
+        linkRepository.delete(link: link)
     }
 }

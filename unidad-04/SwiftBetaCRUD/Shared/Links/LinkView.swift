@@ -63,8 +63,53 @@ struct LinkView: View {
                                     .foregroundColor(.yellow)
                                     .frame(width: 10, height: 10)
                             }
+                            
+                            Button(action: {
+                                linkViewModel.updateIsFavorited(link: link)
+                            }, label: {
+                                Label("Favorito", systemImage: "star.fill")
+                            })
+                            .tint(.yellow)
+                            
+                            Button(action: {
+                                linkViewModel.updateIsCompleted(link: link)
+                            }, label: {
+                                Label("Completado", systemImage: "checkmark.circle.fill")
+                            })
+                            .tint(.blue)
+                            
+                            Button(action: {
+                                linkViewModel.delete(link: link)
+                            }, label: {
+                                Label("Borrar", systemImage: "trash.fill")
+                            })
+                            .tint(.red)
                         }
                     }
+                    /*
+                    .swipeActions(edge: .trailing) {
+                        Button(action: {
+                            linkViewModel.updateIsFavorited(link: link)
+                        }, label: {
+                            Label("Favorito", systemImage: "star.fill")
+                        })
+                        .tint(.yellow)
+                        Button(action: {
+                            linkViewModel.updateIsCompleted(link: link)
+                        }, label: {
+                            Label("Completado", systemImage: "checkmark.circle.fill")
+                        })
+                        .tint(.blue)
+                    }
+                    .swipeActions(edge: .leading) {
+                        Button(action: {
+                            linkViewModel.delete(link: link)
+                        }, label: {
+                            Label("Borrar", systemImage: "trash.fill")
+                        })
+                        .tint(.red)
+                    }
+ */
                 }
                 
             }
